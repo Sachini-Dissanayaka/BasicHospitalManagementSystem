@@ -1,0 +1,21 @@
+{
+  "users": [
+    {"id": 1, "name": "Sachini", "password": "a54ad14a3072269ae3ac7efa210b1f24", "category": "doctor"},
+    {"id": 2, "name": "Achini", "password": "b19d382f246cf3e5508cd7d99f0c5a94", "category": "doctor"},
+    {"id": 3, "name": "Yoshani", "password": "c62a2acedeb2de83323ad295f6065ab9", "category": "receptionist"},
+    {"id": 4, "name": "Hashara", "password": "2734d10217a572fbf1718094ebfadaf3", "category": "patient"},
+    {"id": 5, "name": "Shammi", "password": "7201c2c174c188b6908f917292dc75b8", "category": "patient"},
+    {"id": 6, "name": "Sandu", "password": "44667417b5a1803ec3b0c299f6dc9a82", "category": "patient"},
+    {"id": 7, "name": "Amal", "password": "f301aa7ef7adba64e369aad2b7622a88", "category": "doctor"},
+    {"id": 8, "name": "Sanath", "password": "945194747d1ab72653b4dd5a1937a04e", "category": "doctor"},
+    {"id": 9, "name": "Kamal", "password": "cc5ecf5e6e03d654f587afcdcb40fd3f", "category": "receptionist"},
+    {"id": 10, "name": "Nuwan", "password": "b0f6fb2feea260162701b85ba209680d", "category": "doctor"}],
+  "personalData": [
+    {"id": 4, "name": "Hashara", "nic": "MTIzNDU2Nzg5MA==", "dob": "1998/1/12", "gender": "female", "phone": "MDcxNzkxMjM0NQ==", "town": "colombo"}],
+  "sicknessData": [
+    {"id": 1, "user_id": 4, "name": "Hashara", "age": "22", "disease": "corona", "duration": "1 month", "doctor": "Sachini"}],
+  "drugData": [
+    {"id": 1, "user_id": 4, "name": "Hashara", "age": "22", "weight": "58", "drugs": "penadol", "date": "2020/05/02", "doctor": "Sachini"}],
+  "labData": [
+    {"id": 1, "user_id": 4, "name": "Hashara", "age": "22", "description": "No problem", "date": "2020/05/02", "doctor": "Sachini"}]
+}
